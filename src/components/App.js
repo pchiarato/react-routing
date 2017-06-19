@@ -1,4 +1,5 @@
 import React from 'react';
+import router from '../router'
 import './App.css';
 
 import Nav from './Nav/Nav';
@@ -10,6 +11,7 @@ export default function App() {
       <Nav />
       <div id="App__mainContainer">
         <div id="App__routerContainer">
+          {router}
           <Cart />
         </div>
       </div>

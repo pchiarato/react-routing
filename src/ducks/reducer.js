@@ -27,7 +27,7 @@ export default function reducer( state = initialState, action ) {
       return state;
 
     case CHECKOUT: return Object.assign({}, initialState);
-    default: return state;
+    default: return state
   }
 }
 
